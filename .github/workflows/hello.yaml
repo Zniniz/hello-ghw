@@ -1,6 +1,4 @@
-on: 
- push:
-   - main
+on: push
 
 jobs:
   say_hello:
