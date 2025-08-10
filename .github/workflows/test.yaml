@@ -6,7 +6,7 @@ on:
       - main
 
 jobs:
-  run_specific_python:
+  test:
     name: Run Tests with Python 3.13
     runs-on: ubuntu-latest
     steps:
