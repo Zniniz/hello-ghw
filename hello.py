@@ -1,4 +1,4 @@
-def greet(person):
+def greet(person: str) -> str:
     return f"Hello {person}"
 
 if __name__ == "__main__":
